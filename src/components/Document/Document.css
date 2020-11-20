@@ -1,0 +1,50 @@
+.document {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.document--container {
+    width: 50%;
+}
+
+.document--container h1 {
+    font-size: 48px;
+}
+
+.document--author {
+    display: flex;
+    align-items: center;
+}
+
+.document--author img {
+    background: #C4C4C4;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+    margin-right: 10px;
+}
+
+.document--author p.document--authorName {
+    font-size: 18;
+    font-weight: lighter;
+    color: #1A8917;
+
+    margin-right: 10px;
+}
+
+.document--author p.document--releaseDate {
+    font-size: 18;
+    font-weight: lighter;
+}
+
+@media (max-width: 750px) {
+    .document--container {
+        width: 85%;
+    }
+    .document--container h1 {
+        font-size: 35px;
+    }
+}

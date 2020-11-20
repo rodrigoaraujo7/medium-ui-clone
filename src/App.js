@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import Database from './Database';
 import Header from './components/Header';
+import Document from './components/Document';
 
 export default () => {
   return (
     <div className="page">
       <Header />
+
+      <Document />
 
       <footer>
         <h1>Developed by Rodrigo Araujo</h1>
