@@ -28,7 +28,15 @@ export default () => {
                 </p>
 
                 <div className="document--list">
-                    
+                    <h1>Steps</h1>
+                    <ol>
+                        <li>install Node.js</li>
+                        <li>open your terminal</li>
+                        <li>npx create-react-app AppName</li>
+                        <li>cd AppName</li>
+                        <li>npm start</li>
+                        <li>start code</li>
+                    </ol>
                 </div>
             </div>
         </div>
