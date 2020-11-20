@@ -15,8 +15,6 @@
 .document--author {
     display: flex;
     align-items: center;
-
-    margin-top: -5px;
 }
 
 .document--author img {
@@ -60,10 +58,6 @@
 .document--list h1 {
     font-size: 34px;
     font-weight: 500;
-}
-
-.document--list ol {
-    margin-top: -5px;
 }
 
 .document--list ol li {
