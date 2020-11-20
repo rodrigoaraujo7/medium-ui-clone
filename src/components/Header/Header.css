@@ -18,3 +18,14 @@ header {
     font-size: 24px;
     color: #404040;
 }
+
+@media (max-width: 750px) {
+    .header--name {
+        margin: 0px;
+        display: block;
+    }
+    .header--followers {
+        display: block;
+        margin-top: -5px;
+    }
+}
