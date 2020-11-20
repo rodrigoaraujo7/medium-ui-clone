@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
 
-    margin-top: -35px;
+    margin-top: -5px;
 }
 
 .document--author img {
@@ -63,7 +63,7 @@
 }
 
 .document--list ol {
-    margin-top: -25px;
+    margin-top: -5px;
 }
 
 .document--list ol li {

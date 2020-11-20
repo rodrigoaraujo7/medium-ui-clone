@@ -1,0 +1,67 @@
+.postcard {
+    width: 200px;
+    height: 200px;
+
+    top: 0;
+    margin-top: 130px;
+    margin-left: 70px;
+
+    position: fixed;
+    z-index: 9999;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: #323232;
+
+    margin-bottom: -20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+
+    margin-bottom: -20px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+button {
+    border: 1px solid #000;
+    border-radius: 5px;
+
+    background: none;
+
+    cursor: pointer;
+
+    padding: 10px 20px;
+
+    transition: 0.25s;
+}
+
+button:hover {
+    border-radius: 0;
+}
+
+@media (max-width: 950px) {
+    .postcard {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 850px) {
+    .postcard {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .postcard {
+        display: none;
+    }
+}

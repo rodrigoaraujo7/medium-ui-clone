@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Document from './components/Document';
+import PostCard from './components/PostCard';
 
 export default () => {
   return (
@@ -9,6 +10,8 @@ export default () => {
       <Header />
 
       <Document />
+
+      <PostCard />
 
       <footer>
         <h1>Developed by Rodrigo Araujo</h1>
