@@ -1,0 +1,20 @@
+header {
+    border-bottom: 1px solid #00000080;
+    padding: 40px;
+}
+
+.header--name {
+    display: inline-block;
+    margin: 0 35px 0 50px;
+
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.header--followers {
+    display: inline-block;
+
+    font-weight: lighter;
+    font-size: 24px;
+    color: #404040;
+}
