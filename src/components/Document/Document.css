@@ -40,6 +40,21 @@
     font-weight: lighter;
 }
 
+.document--text {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.document--image {
+    width: 100%;
+}
+
+.document--subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    color: #6D6D6D;
+}
+
 @media (max-width: 750px) {
     .document--container {
         width: 85%;
