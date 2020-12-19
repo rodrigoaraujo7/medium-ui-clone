@@ -1,17 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Document from './components/Document';
 import PostCard from './components/PostCard';
 
 export default () => {
+  const [displayNone, setDisplayNone] = useState(false);
+
+  useEffect(() => {
+    const scrollListener = () => {
+      if (window.scrollY > 200) {
+        setDisplayNone(true)
+      } else {
+        setDisplayNone(false)
+      }
+    }
+
+    window.addEventListener('scroll', scrollListener);
+    return () => {
+      window.removeEventListener('scroll', scrollListener);
+    }
+  })
+
   return (
     <div className="page">
       <Header />
 
       <Document />
 
-      <PostCard />
+      <PostCard display={displayNone} />
 
       <footer>
         <h1>Developed by Rodrigo Araujo</h1>
