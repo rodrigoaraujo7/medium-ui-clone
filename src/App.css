@@ -19,12 +19,14 @@ footer {
   align-items: center;
 
   padding-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 footer h1 {
   font-size: 18px;
   font-weight: lighter;
-  padding: 5px;
+
+  padding-bottom: 10px;
 }
 
 footer h2 {
@@ -38,4 +40,10 @@ footer h2 {
 footer img {
   height: 25px;
   width: 25px;
+}
+
+@media (max-width: 750px) {
+  footer h1 {
+    padding-bottom: 15px;
+  }
 }

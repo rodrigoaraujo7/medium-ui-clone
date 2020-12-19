@@ -74,5 +74,11 @@
     }
     .document--container h1 {
         font-size: 35px;
+    }  
+    .document--author {
+        margin-top: 20px;
+    }
+    .document--list ol li {
+        margin: 8px 0 8px 0;
     }
 }
