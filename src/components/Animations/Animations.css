@@ -1,0 +1,12 @@
+@keyframes opacityIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.opacityIn {
+    animation-name: opacityIn;
+    animation-duration: 300ms;
+}
